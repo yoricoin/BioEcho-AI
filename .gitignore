@@ -1,0 +1,35 @@
+# Environnements virtuels
+venv/
+ENV/
+env/
+.venv/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Données volumineuses (à ne pas pusher sur git)
+data/raw/
+data/audio/*.wav
+data/audio/*.flac
+data/images/*.jpg
+data/images/*.png
+!data/**/.gitkeep
+
+# Fichiers de configuration & secrets
+.env
+*.local
+
+# IDEs & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Builds & distributions
+build/
+dist/
+*.egg-info/

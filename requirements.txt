@@ -1,0 +1,26 @@
+# --- Calculs Mathématiques & Data Science ---
+numpy>=1.26.0
+pandas>=2.2.0
+scipy>=1.12.0
+scikit-learn>=1.4.0
+
+# --- Bioacoustique & Traitement Audio ---
+librosa>=0.10.1
+soundfile>=0.12.1
+matplotlib>=3.8.0
+
+# --- Vision par Ordinateur & Traitement d'Images ---
+pillow>=10.2.0
+opencv-python>=4.9.0
+
+# --- API Backend & Serveur Léger ---
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+python-multipart>=0.0.9
+pydantic>=2.6.0
+requests>=2.31.0
+
+# --- Optionnel : Deep Learning (Installer selon votre matériel CPU/GPU) ---
+# torch>=2.2.0
+# torchvision>=0.17.0
+# ultralytics>=8.1.0
